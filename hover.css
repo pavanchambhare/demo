@@ -1,0 +1,28 @@
+.wrapper {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+a {
+	display: block;
+	font-size: 24px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #333;
+	background-color: rgb(255, 157, 0);
+	border-top: 3px solid #333;
+	border-radius: 40px;
+	border-bottom: 2px solid #333;
+	padding: 5px;
+	letter-spacing: 2px;
+	transition: all 0.25s;
+}
+
+a:hover {
+	letter-spacing: 10px;
+	background-color: cornsilk;
+	rotate: 365deg;
+	transition: all 0.03s;
+}
